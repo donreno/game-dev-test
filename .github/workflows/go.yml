@@ -31,7 +31,7 @@ jobs:
         fi
         
     - name: Install SDL
-      run: apt-get install -y libsdl2-dev
+      run: sudo apt-get install -y libsdl2-dev
 
     - name: Vendor
       run: make mod
